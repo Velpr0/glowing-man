@@ -212,7 +212,7 @@ export class GameScene extends Phaser.Scene {
 
   private handleShooting(time: number): void {
     const pointer = this.input.activePointer;
-    const shouldFire = this.currentWeapon.auto ? pointer.isDown : pointer.justDown;
+    const shouldFire = this.currentWeapon.auto ? pointer.isDown : pointer.justDown || pointer.isDown;
     const canFire = time > this.lastShotTime + 1000 / this.stats.fireRate;
     if (shouldFire && canFire) {
       this.fireWeapon(pointer.worldX, pointer.worldY);

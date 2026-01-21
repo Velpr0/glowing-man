@@ -6,6 +6,7 @@ import { UpgradeScene } from './scenes/UpgradeScene';
 import { ResultScene } from './scenes/ResultScene';
 import { MetaScene } from './scenes/MetaScene';
 import { PauseScene } from './scenes/PauseScene';
+import { SettingsScene } from './scenes/SettingsScene';
 
 const config: Phaser.Types.Core.GameConfig = {
   type: Phaser.AUTO,
@@ -19,7 +20,7 @@ const config: Phaser.Types.Core.GameConfig = {
       debug: false
     }
   },
-  scene: [BootScene, MenuScene, MetaScene, GameScene, UpgradeScene, ResultScene, PauseScene]
+  scene: [BootScene, MenuScene, MetaScene, SettingsScene, GameScene, UpgradeScene, ResultScene, PauseScene]
 };
 
 new Phaser.Game(config);

@@ -29,7 +29,7 @@ export class MenuScene extends Phaser.Scene {
     const settings = this.add.text(width / 2, 380, 'Settings', {
       fontSize: '20px',
       color: '#bd93f9'
-    }).setOrigin(0.5);
+    }).setOrigin(0.5).setInteractive();
 
     const credits = this.add.text(width / 2, 440, 'Credits', {
       fontSize: '20px',
@@ -50,8 +50,7 @@ export class MenuScene extends Phaser.Scene {
     });
 
     settings.on('pointerup', () => {
-      this.saveSystem.toggleSetting('screenshake');
-      settings.setText(`Settings (screenshake: ${this.saveSystem.getSettings().screenshake ? 'on' : 'off'})`);
+      this.scene.start('SettingsScene');
     });
 
     credits.on('pointerup', () => {
