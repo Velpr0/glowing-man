@@ -1,0 +1,11 @@
+[
+  {"id":"wave1","duration":40,"spawnCount":18,"enemies":["grunt"],"eliteChance":0,"clearRequired":true},
+  {"id":"wave2","duration":45,"spawnCount":22,"enemies":["grunt","gunner"],"eliteChance":0.05,"clearRequired":true},
+  {"id":"wave3","duration":50,"spawnCount":26,"enemies":["grunt","gunner","charger"],"eliteChance":0.08,"clearRequired":true},
+  {"id":"wave4","duration":50,"spawnCount":30,"enemies":["grunt","gunner","charger","exploder"],"eliteChance":0.12,"clearRequired":true},
+  {"id":"wave5","duration":55,"spawnCount":34,"enemies":["grunt","gunner","charger","exploder"],"eliteChance":0.14,"clearRequired":true},
+  {"id":"wave6","duration":55,"spawnCount":38,"enemies":["grunt","gunner","charger","exploder","summoner"],"eliteChance":0.16,"clearRequired":true},
+  {"id":"wave7","duration":60,"spawnCount":42,"enemies":["grunt","gunner","charger","exploder","summoner"],"eliteChance":0.2,"clearRequired":true},
+  {"id":"wave8","duration":60,"spawnCount":46,"enemies":["grunt","gunner","charger","exploder","summoner","shielded"],"eliteChance":0.22,"clearRequired":true},
+  {"id":"boss","duration":65,"spawnCount":1,"enemies":["boss"],"eliteChance":0,"clearRequired":true}
+]
