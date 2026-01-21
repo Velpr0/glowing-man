@@ -1,0 +1,74 @@
+[
+  {
+    "id": "pistol",
+    "name": "Pistol",
+    "type": "pistol",
+    "baseDamage": 12,
+    "fireRate": 4,
+    "projectiles": 1,
+    "spread": 0.02,
+    "speed": 520,
+    "pierce": 0,
+    "auto": false
+  },
+  {
+    "id": "smg",
+    "name": "SMG",
+    "type": "smg",
+    "baseDamage": 7,
+    "fireRate": 10,
+    "projectiles": 1,
+    "spread": 0.08,
+    "speed": 560,
+    "pierce": 0,
+    "auto": true
+  },
+  {
+    "id": "shotgun",
+    "name": "Shotgun",
+    "type": "shotgun",
+    "baseDamage": 6,
+    "fireRate": 1.6,
+    "projectiles": 6,
+    "spread": 0.32,
+    "speed": 480,
+    "pierce": 0,
+    "auto": false
+  },
+  {
+    "id": "rifle",
+    "name": "Assault Rifle",
+    "type": "rifle",
+    "baseDamage": 10,
+    "fireRate": 6.5,
+    "projectiles": 1,
+    "spread": 0.05,
+    "speed": 600,
+    "pierce": 1,
+    "auto": true
+  },
+  {
+    "id": "sniper",
+    "name": "Sniper",
+    "type": "sniper",
+    "baseDamage": 40,
+    "fireRate": 0.9,
+    "projectiles": 1,
+    "spread": 0.01,
+    "speed": 820,
+    "pierce": 3,
+    "auto": false
+  },
+  {
+    "id": "energy",
+    "name": "Pulse Caster",
+    "type": "energy",
+    "baseDamage": 9,
+    "fireRate": 7,
+    "projectiles": 2,
+    "spread": 0.1,
+    "speed": 520,
+    "pierce": 0,
+    "auto": true
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "en-US": {
+    "menu.start": "Start Run",
+    "menu.meta": "Meta",
+    "menu.settings": "Settings",
+    "menu.credits": "Credits",
+    "hud.wave": "Wave",
+    "hud.seed": "Seed",
+    "upgrade.title": "Choose an Upgrade",
+    "result.title": "Run Complete",
+    "meta.title": "Meta Growth"
+  },
+  "zh-CN": {
+    "menu.start": "开始行动",
+    "menu.meta": "局外成长",
+    "menu.settings": "设置",
+    "menu.credits": "制作组",
+    "hud.wave": "波次",
+    "hud.seed": "种子",
+    "upgrade.title": "三选一升级",
+    "result.title": "结算",
+    "meta.title": "局外成长"
+  }
+}
