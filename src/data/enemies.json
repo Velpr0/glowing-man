@@ -1,0 +1,9 @@
+[
+  {"id":"grunt","name":"Grunt","hp":60,"speed":80,"damage":10,"behavior":"melee","elite":false},
+  {"id":"gunner","name":"Gunner","hp":45,"speed":70,"damage":8,"behavior":"ranged","elite":false},
+  {"id":"charger","name":"Charger","hp":80,"speed":120,"damage":14,"behavior":"charger","elite":false},
+  {"id":"exploder","name":"Exploder","hp":50,"speed":95,"damage":20,"behavior":"exploder","elite":false},
+  {"id":"summoner","name":"Summoner","hp":90,"speed":65,"damage":12,"behavior":"summoner","elite":false},
+  {"id":"shielded","name":"Shielded","hp":140,"speed":60,"damage":12,"behavior":"shielded","elite":true},
+  {"id":"boss","name":"Apex Warden","hp":1200,"speed":55,"damage":22,"behavior":"summoner","elite":true}
+]

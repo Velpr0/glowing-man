@@ -1,0 +1,17 @@
+[
+  {"id":"meta_hp_1","name":"Vitality I","cost":50,"type":"stat","value":0.05,"description":"+5% max HP."},
+  {"id":"meta_hp_2","name":"Vitality II","cost":120,"type":"stat","value":0.05,"description":"+5% max HP."},
+  {"id":"meta_damage_1","name":"Sharpshooter I","cost":80,"type":"stat","value":0.04,"description":"+4% damage."},
+  {"id":"meta_damage_2","name":"Sharpshooter II","cost":160,"type":"stat","value":0.04,"description":"+4% damage."},
+  {"id":"meta_speed","name":"Runner's Edge","cost":70,"type":"stat","value":0.04,"description":"+4% move speed."},
+  {"id":"meta_dash","name":"Phase Starter","cost":90,"type":"stat","value":0.08,"description":"-8% dash cooldown."},
+  {"id":"meta_reroll","name":"Tactical Reroll","cost":150,"type":"reroll","description":"Unlock upgrade reroll."},
+  {"id":"meta_pistol","name":"Sidearm License","cost":40,"type":"unlock","description":"Unlock Pistol start."},
+  {"id":"meta_smg","name":"SMG License","cost":70,"type":"unlock","description":"Unlock SMG start."},
+  {"id":"meta_shotgun","name":"Shotgun License","cost":90,"type":"unlock","description":"Unlock Shotgun start."},
+  {"id":"meta_rifle","name":"Rifle License","cost":110,"type":"unlock","description":"Unlock Rifle start."},
+  {"id":"meta_sniper","name":"Sniper License","cost":140,"type":"unlock","description":"Unlock Sniper start."},
+  {"id":"meta_energy","name":"Energy License","cost":160,"type":"unlock","description":"Unlock Pulse Caster start."},
+  {"id":"meta_currency","name":"Extractor","cost":120,"type":"stat","value":0.05,"description":"+5% currency gain."},
+  {"id":"meta_shield","name":"Shield Projector","cost":130,"type":"stat","value":0.05,"description":"+5% shield capacity."}
+]
